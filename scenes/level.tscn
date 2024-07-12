@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cm485pk66b1sb"]
+
+[ext_resource type="PackedScene" uid="uid://cfcds52b6f0bp" path="res://scenes/background.tscn" id="1_42p5g"]
+[ext_resource type="PackedScene" uid="uid://tqyu5t1l3i24" path="res://assets/sprites/submarine.tscn" id="2_i1p2d"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="81Lo5zLbb9l_AcUf1000,1000Ql80" parent="." instance=ExtResource("1_42p5g")]
+
+[node name="Submarine" parent="." instance=ExtResource("2_i1p2d")]
+position = Vector2(597, 292)

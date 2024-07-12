@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dacaxtonfugb4"]
+
+[ext_resource type="Script" path="res://Camera2D.gd" id="1_2xu6i"]
+
+[node name="Camera2D" type="Camera2D"]
+position_smoothing_enabled = true
+script = ExtResource("1_2xu6i")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0.188235, 0.188235, 0.188235, 1)

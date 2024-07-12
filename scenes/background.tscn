@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfcds52b6f0bp"]
+
+[ext_resource type="Texture2D" uid="uid://bx7ee5kqx8i4w" path="res://assets/sprites/Fond.png" id="1_cy1hh"]
+
+[node name="81Lo5zLbb9l_AcUf1000,1000Ql80" type="Sprite2D"]
+texture = ExtResource("1_cy1hh")
+centered = false
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-6, -4)
+anchor_mode = 0
+zoom = Vector2(0.6, 0.6)
